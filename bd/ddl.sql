@@ -13,7 +13,9 @@ nr_cpf          int(11)
 CREATE TABLE TB_LOGIN (
 id_login        int primary key auto_increment,
 id_usuario      int,
-FOREING KEY (id_usuario) references TB_USUARIO(id_usuario)
+ds_email        varchar(200),
+ds_senha        varchar(20)
+FOREIGN KEY (id_usuario) references TB_USUARIO(id_usuario)
 );
 
 // 113.55
