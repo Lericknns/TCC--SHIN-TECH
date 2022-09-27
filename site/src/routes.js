@@ -43,10 +43,10 @@ export default function AppRoutes() {
 
                 <Route path='/' element={<TelaUser />} />
                 <Route path='/User/Usercadastro' element={<CadastroUser />} />
-                <Route path='/user/loginUser/login001' element={<Login1/>} />
-                <Route path='/user/loginUser/login002' element={<Login2/>} />
-                <Route path='/user/loginUser/login003' element={<Login3/>} />
-                <Route path='/user/loginUser/login004' element={<Login4/>} />
+                <Route path='/User/loginUser/login001' element={<Login1/>} />
+                <Route path='/User/loginUser/login002' element={<Login2/>} />
+                <Route path='/User/loginUser/login003' element={<Login3/>} />
+                <Route path='/User/loginUser/login004' element={<Login4/>} />
                 <Route path='/User/interfaceUser/notificacoesUser' element={<NotificacoesUser />} /> 
                 <Route path='/User/interfaceUser/minhaArea' element={<MinhaArea />} />
                 <Route path='/User/interfaceUser/segurancaUser' element={<SegurancaUser />} /> 

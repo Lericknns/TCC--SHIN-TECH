@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import Routes from './routes.js';
+import Routes from './src/routes.js';
 
 import './index.css';
 
