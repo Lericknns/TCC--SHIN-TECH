@@ -9,7 +9,7 @@ import EditJogo from './pages/Admin/editarjogoAdm'
 import EsqueceusenhaAdm from './pages/Admin/esqueceusenhaAdm'
 import PesquisarjogoAdm from './pages/Admin/pesquisarjogoAdm'
 
-import MinhaArea from '/pages/User/interfaceUser/minhaArea';
+import MinhaArea from './pages/User/interfaceUser/minhaArea';
 import NotificacoesUser from './pages/User/interfaceUser/notificacoesUser'
 import SegurancaUser from './pages/User/interfaceUser/segurancaUser';
 import Landing from './pages/User/landingUser'
