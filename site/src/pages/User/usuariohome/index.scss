@@ -1,3 +1,20 @@
 *{
-    background-color: black;
+    background-color: #520084;
+}
+
+.Home{
+    display: flex;
+    flex-direction: column;
+    
+    .img
+{ 
+    padding-top: 2vh ;
+    height: 60px;
+    width: 111px;
+}
+
+ .sec{
+    display: flex;
+    flex-direction: row;
+ }
 }
