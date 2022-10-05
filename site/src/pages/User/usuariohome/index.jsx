@@ -5,7 +5,7 @@ export default function Index() {
        <main className='Home'>
         <section className='sec'>
         <img className='img' src='./images/logo.png' alt='' />
-        <h1>aaa</h1>  
+        <h1>aa</h1>  
         </section>
        </main>
     )
