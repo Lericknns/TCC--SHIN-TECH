@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Roboto';
+  }
+
+  textarea {
+    resize: none;
+  }
+  
+  @font-face {
+    font-family: 'medium';
+    src: url(../public/assets/fonts/Raleway-MediumItalic.ttf);
+  }
+
+  @font-face {
+    font-family: 'bold';
+    src: url(../public/assets/fonts/Raleway-SemiBoldItalic.ttf);
+  }
