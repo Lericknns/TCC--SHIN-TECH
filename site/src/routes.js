@@ -14,7 +14,7 @@ import NotificacoesUser from './pages/User/interfaceUser/notificacoesUser';
 import SegurancaUser from './pages/User/interfaceUser/segurancaUser';
 import Landing from './pages/User/landingUser';
 import LandinglogadoUser from './pages/User/landinglogadoUser';
-import Login1 from './pages/User/loginUser/login001';
+import Login1 from './pages/User/loginUser/login001'
 import Login2 from './pages/User/loginUser/login002';
 import Login3 from './pages/User/loginUser/login003';
 import Login4 from './pages/User/loginUser/login004';
@@ -37,9 +37,9 @@ export default function Index() {
                 <Route path='/Admin/esqueceusenhaAdm' element={<EsqueceusenhaAdm />} /> 
                 <Route path='/Admin/pesquisarjogoAdm' element={<PesquisarjogoAdm />} />
                
-               <Route path ='/' element = {< UsuarioHome /> } />
+               <Route path ='/home' element = {< UsuarioHome /> } />
                 <Route path='/User/Usercadastro' element={<CadastroUser />} />
-                <Route path='/User/loginUser/login001' element={<Login1/>} />
+                <Route path='/' element= {< Login1/>} />
                 <Route path='/User/loginUser/login002' element={<Login2/>} />
                 <Route path='/User/loginUser/login003' element={<Login3/>} />
                 <Route path='/User/loginUser/login004' element={<Login4/>} />

@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
 import './index.scss';
-import Roteador from './Routes.js';
+
+import Roteador from './routes.js';
 
 
 
