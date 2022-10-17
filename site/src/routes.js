@@ -37,9 +37,9 @@ export default function Index() {
                 <Route path='/Admin/esqueceusenhaAdm' element={<EsqueceusenhaAdm />} /> 
                 <Route path='/Admin/pesquisarjogoAdm' element={<PesquisarjogoAdm />} />
                
-               <Route path ='/home' element = {< UsuarioHome /> } />
+               <Route path ='/' element = {< UsuarioHome /> } />
                 <Route path='/User/Usercadastro' element={<CadastroUser />} />
-                <Route path='/' element= {< Login1/>} />
+                <Route path='/User/loginUser/login001' element= {< Login1/>} />
                 <Route path='/User/loginUser/login002' element={<Login2/>} />
                 <Route path='/User/loginUser/login003' element={<Login3/>} />
                 <Route path='/User/loginUser/login004' element={<Login4/>} />
