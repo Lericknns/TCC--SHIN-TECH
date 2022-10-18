@@ -1,0 +1,55 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+
+    
+    .img
+{ 
+    padding-top: 2vh ;
+    height: 60px;
+    width: 100px;
+}
+
+ .sec{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-evenly;
+ }
+
+ 
+
+ .text{color: white;
+height: 10px;
+font-family: 'bold';
+padding: 0em 3em; 
+
+
+ }
+hr{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+button{
+    border: none;
+    background-color: white;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    border-radius: 30px;
+    
+       
+}
+.text2{
+display: flex;
+align-items: center;
+background-color: white;
+color: black;
+height: 8px;
+font-family: 'bold';
+
+
+}
+
+
+}
