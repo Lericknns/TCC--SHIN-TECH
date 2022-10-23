@@ -3,24 +3,31 @@ import { Link } from 'react-router-dom';
 
 export default function Index(){
   return(
-       <main className='sorvete'>
-        <div>
-           <div>
-                <img  src=''></img>
-                <p> Voltar para a loja </p>
-            </div>
-            <div>
-                <p>Não possui uma conta?</p>
-                <p>Cadastre-se.</p>
-            </div>
-        </div>
-        <div>
-            <img> </img>
-            <input type='text' placeholder= 'Nickname:'></input >
-            <input type='text'  placeholder= 'senha:'></input>
-            <p>esqueceu sua senha?</p>
-            <button> LOGIN</button>
-        </div>
+       <main className='mae'>
+
+
+<section className='sec1'>
+          
+ <div className='div1'>
+                <Link className='texto2' to={'/'}>Voltar para loja</Link>
+ </div>
+
+ <div className='div2'>
+<h1>
+    Não possui uma conta?
+</h1>
+<Link className='texto' to={'/User/cadastroUser/cadastro1'}>Cadastre-se</Link>
+
+ </div>
+        
+</section>
+
+<section className='sec2'>
+   
+   <img className='' src='../assets/images/logo.png' alt='' />
+
+</section>       
+        
        </main>
     )
 }

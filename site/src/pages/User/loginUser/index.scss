@@ -1,4 +1,55 @@
-import 
 
-.sorvete{color:rgb(196, 9, 9);
-background-color: #ffff};
+.mae{
+    display: flex;
+    flex-direction: column;
+   
+
+    .sec1{
+        display: flex;
+        flex-direction: row;justify-content: space-around;
+        
+    }
+
+    .texto{
+        color: white;
+        height: 20px;
+        width: 100px;
+        
+    }
+    .texto2{
+        color: white;
+        height: 20px;
+      
+        
+    }
+    .div1{
+      
+        padding: 3em 3em;
+        
+        
+    }
+
+    .div2{
+        display: flex;
+        flex-direction: row;
+        padding: 3em;
+        padding-left: 86em;
+        
+       
+    }
+
+    h1{
+        color: white;
+        width: 200px;
+        height: 10px;
+    }
+
+    img{
+        width: 20em;
+        height: 15em;
+    }
+
+    .sec2{
+        padding:2em 25em;
+    }
+}
