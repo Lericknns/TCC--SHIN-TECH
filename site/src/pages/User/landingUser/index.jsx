@@ -9,7 +9,19 @@ export default function Index() {
        <main className='Home'>
        <Cabeçalho />
        
-        <section></section>
+            <p>Navegar</p>
+            <p>Ofertas</p>
+            <p>Descobrir</p>
+           
+             <img src='./assets/images/lupinha.png' alt=''/>
+             <input  type= 'text' placeholder='procure seus jogos e mais'> </input>
+            
+         
+      
+  
+     
+     
+     
        </main>
     )
 }
