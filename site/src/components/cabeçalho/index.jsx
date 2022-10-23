@@ -15,7 +15,7 @@ export default function Index() {
 
         <Link to={'/User/loginUser'}>
             <button>
-                <p className='text2'>Login</p>
+                <p className='text2'>Iniciar sessão</p>
             </button>
             </Link>
 
