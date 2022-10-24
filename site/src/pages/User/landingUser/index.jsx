@@ -1,5 +1,4 @@
 import './index.scss'
-import { Link } from 'react-router-dom';
 import Cabeçalho from '../../../components/cabeçalho'
 
 
@@ -13,8 +12,8 @@ export default function Index() {
             <p>Ofertas</p>
             <p>Descobrir</p>
            
-             <img src='./assets/images/lupinha.png' alt=''/>
-             <input  type= 'text' placeholder='procure seus jogos e mais'> </input>
+             <img className='imagelupa' src='./assets/images/lupinha.png' alt=''/>
+
             
          
       

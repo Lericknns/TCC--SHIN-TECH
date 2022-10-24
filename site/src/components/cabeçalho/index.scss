@@ -1,3 +1,5 @@
+
+
 .Home{
     display: flex;
     flex-direction: column;
@@ -23,7 +25,7 @@
 
  .text{color: white;
 height: 10px;
-font-family: 'bold';
+font-family: "medium";
 padding: 0em 3em; 
 
 
@@ -43,18 +45,19 @@ button{
     border-radius: 4px;
     height: 38px;
     width: 164px;
+    
        
 }
-.text2{
-display: flex;
-background-color: #000;
-color: #fff;
-font-size: 21px;
-font-family: 'bold';
+    .p{
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    font-size: 21px;
+    font-family: 'Roboto' ;
 
 
 
-}
+    }
 
 
 }

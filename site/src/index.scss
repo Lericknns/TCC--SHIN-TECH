@@ -5,23 +5,25 @@
     font-family: 'Roboto'; 
     background-color: #520084;
     
-  }
+  
 
   textarea {
     resize: none;
   }
   
   @font-face {
-    font-family: 'medium';
+    font-family: "Gustavo";
     src: url(../public/assets/fonts/Raleway-MediumItalic.ttf);
   }
 
   @font-face {
-    font-family: 'bold';
+    font-family: bold;
     src: url(../public/assets/fonts/Raleway-SemiBoldItalic.ttf);
   }
 
   @font-face {
-    font-family:  'robotoBold';
+    font-family:  robotoBold;
     src: url(../public/assets/fonts/robotobold.ttf);
   }
+
+}

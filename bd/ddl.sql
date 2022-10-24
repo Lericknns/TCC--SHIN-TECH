@@ -3,19 +3,12 @@ create  database shintech;
 use shintech;
 
  create table tb_usuario (
- 
-	id_usuario int primary key auto_increment,
-    nm_usuario varchar(300),
+ 	id_usuario int primary key auto_increment,
+    ds_email varchar(50),
+    ds_senha varchar(50),
+    nm_usuario varchar(25),
     dt_nascimento date
  );
-
-create table tb_login (
-	id_login int primary key auto_increment,
-    id_usuario int,
-    ds_email varchar (300),
-    ds_senha varchar (300),
-    foreign key (id_usuario) references tb_usuario(id_usuario)
-    );
 
 create table tb_usuario_favorito (
 	id_usuario_favorito int,
@@ -29,6 +22,12 @@ create table tb_produto_avaliacao(
    foreign key (id_usuario) references tb_usuario(id_usuario)
 );
 
+create table tb_produto_categoria(
+	id_produto_categoria int primary key auto_increment,
+    id_categoria int,
+    id_produto int
+);
+
 create table tb_produto (
 	id_produto int primary key auto_increment,
     id_departamento int,
@@ -36,14 +35,13 @@ create table tb_produto (
     nm_produto varchar (300),
     vl_preco_de varchar (300),
     vl_preco_por varchar (300),
-    foreign key (id_usuario) references tb_usuario(id_usuario)
+    foreign key (id_produto_categoria) references tb_produto_categoria(id_produto_categoria)
 );
 
 create table tb_produto_image (
-
       id_produto_image int primary key auto_increment,
       id_produto int,
-      img_produto int
+      img_produto varchar(100)
 );
 
 
@@ -55,13 +53,7 @@ create table tb_departamento (
 
 create   table td_categoria (
 	id_categoria int primary key auto_increment,
-    id_nm_categoria int 
-);
-
-create table tb_produto_categoria(
-	id_produto_categoria int primary key auto_increment,
-    id_categoria int,
-    id_produto int
+    nm_categoria varchar(20)
 );
 
 create table tb_pedido_item (
@@ -72,16 +64,15 @@ create table tb_pedido_item (
 );
 
 create table tb_pedido (
-
 	id_PEDIDO int primary key auto_increment,
 	id_USUARIO int,
 	id_CUPOM int,
-      dt_PEDIDO date,
-      COD_NOTA_FISCAL varchar (300),
-      TP_FRETE varchar (300),
-      VL_FRETE varchar (300),
-      DS_STATUS int,
-       TP_PAGAMENTO varchar (300)
+	dt_PEDIDO date,
+	COD_NOTA_FISCAL varchar (300),
+	TP_FRETE varchar (300),
+	VL_FRETE varchar (300),
+	DS_STATUS int,
+	TP_PAGAMENTO varchar (300)
        
 );
 
@@ -89,9 +80,8 @@ create table tb_pedido (
 create table tb_pagamento (
 	id_pagamento int primary key auto_increment,
     id_pedido int,
-    ds_chave_pix varchar (300)
-
-
+    id_produto int,
+    foreign key (id_produto) references tb_produto(id_produto)
 );
 
 create table tb_pagamento_pix (
@@ -117,14 +107,12 @@ create table tb_cupom (
 	id_cupom  int primary key auto_increment,
     dt_criacao date,
     vl_desconto int 
-	
 );
 
-create  table TB_admin_login (
-	id_admin_login int primary key auto_increment,
-    id_admin int,
-    ds_email varchar (300),
-	ds_senha varchar (300)
-
+create  table tb_admin (
+	id_admin int primary key auto_increment,
+    ds_email 	varchar(50),
+    ds_senha 	varchar(50),
+    nm_admin 	varchar(25),
+    dt_nascimento date
 );
-

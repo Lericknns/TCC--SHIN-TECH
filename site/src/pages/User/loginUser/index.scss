@@ -2,23 +2,29 @@
 .mae{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    
+    
    
 
     .sec1{
         display: flex;
-        flex-direction: row;justify-content: space-around;
+        flex-direction: row;
+        justify-content: space-between;
         
     }
 
     .texto{
+        font-size: 20px;
         color: white;
-        height: 20px;
-        width: 100px;
+        font-family: 'medium';
+        
         
     }
     .texto2{
+        font-size: 20px;
         color: white;
-        height: 20px;
+        
       
         
     }
@@ -33,23 +39,34 @@
         display: flex;
         flex-direction: row;
         padding: 3em;
-        padding-left: 86em;
+        
         
        
     }
 
     h1{
+        font-family: 'bold';
+        font-size: 20px;
         color: white;
-        width: 200px;
-        height: 10px;
+        width: 250px;
+      
     }
 
     img{
-        width: 20em;
-        height: 15em;
+        width: 15em;
+        height: 10em;
+        margin-top: 10em;
     }
 
     .sec2{
-        padding:2em 25em;
+       display: flex;
+       justify-content: center;
+    }
+
+    .sec3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
     }
 }

@@ -1,12 +1,21 @@
-import './index.scss';
-import { Link } from 'react-router-dom';
+import './index.scss'
+import Cabeçalho from '../../../components/cabeçalho'
 
 
-export default function TelaUser(){
-    <main>
-        <section>
-            <h1>teste</h1>
-            <img src='./images/logo.png' alt='' />
-        </section>
-    </main>
+export default function Index() {
+
+    return(
+       <main className='Home'>
+       <Cabeçalho />
+       
+          
+            
+         
+      
+  
+     
+     
+     
+       </main>
+    )
 }
