@@ -10,12 +10,12 @@ export default function Index() {
         <img className='img' src='/assets/images/logo.png' alt='' />
         
         <Link className='text' to={'/User/loja'}>Loja</Link>
-        <Link className='text' to={'/User/suporte'}>suporte</Link>
-        <Link className='text' to={'/User/sobre'}>sobre</Link>
+        <Link className='text' to={'/User/sobre'}>Sobre</Link>
+        <Link className='text' to={'/User/suporte'}>Suporte</Link>
 
         <Link to={'/User/loginUser'}>
             <button>
-                <p className='p'>Iniciar sessão</p>
+                <p className='text2'>Iniciar sessão</p>
             </button>
             </Link>
 
