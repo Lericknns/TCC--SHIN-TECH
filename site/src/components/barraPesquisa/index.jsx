@@ -4,16 +4,19 @@ export default function Index() {
 
     return( 
         <main>
-            <div> 
+            <div className='maedetudo'> 
                 <div className='text1'>    
-                    <p>Navegar</p>
-                    <p>Ofertas</p>
-                    <p>Descobrir</p>
-                </div>   
-                <img className='lupinha' src='./assets/images/lupinha.png' alt=''/>   
-                <input placeholder='Procure seus jogos e mais' type='text'></input>
-                <button> <img  className='carinho' src='./assets/images/carinho.png' alt=''/> </button>
-            </div>        
+                    <p className='text1'>Navegar</p>
+                    <p className='text1'> Descobrir</p>
+                    <p className='text1'> Ofertas</p>
+                </div> 
+                <button className='inputtudo'>  
+                    <img className='lupinha' src='./assets/images/lupinha.png' alt=''/>   
+                    <input className='text3' placeholder='Procure seus jogos e mais'></input>
+                </button>
+                <button className='carregar'> <img className='carrinho' src='./assets/images/carrinhoCarregar.png'/></button>
+            </div>
+                   
             
         </main>
     )

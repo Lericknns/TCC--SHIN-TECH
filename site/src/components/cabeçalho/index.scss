@@ -1,35 +1,32 @@
 
 
-.Home{
-    display: flex;
+main{display: flex;
     flex-direction: column;
     background-color: #520084;
     text-decoration: none;
 
     
-    .img
-{ 
-    padding-top: 2vh ;
-    height: 80px;
+    img{  padding-top: 2vh ;
+     height: 80px;
     width: 100px;
-}
+    }
 
- .sec{
-    display: flex;
-    flex-direction: row; 
-    align-items: center;
-    justify-content: space-evenly;
- }
+    .sec{
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        justify-content: space-evenly;
+    }
 
  
 
- .text{color: white;
-height: 10px;
-font-family: 'bold';
-padding: 0em 3em; 
+    .text{color: white;
+    height: 10px;
+    font-family: 'bold';
+    padding: 0em 3em; 
 
 
- }
+    }
 hr{
     margin-top: 1em;
     margin-bottom: 1em;

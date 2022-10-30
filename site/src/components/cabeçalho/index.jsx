@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Index() {
 
     return(
-       <main className='Home'>
+       <main className='mazzzz'>
 
         <section className='sec'>
         <img className='img' src='/assets/images/logo.png' alt='' />
