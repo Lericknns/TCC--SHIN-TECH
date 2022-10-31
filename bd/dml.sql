@@ -6,16 +6,66 @@ insert into tb_usuario (
     nm_usuario,
     dt_nascimento)
     value ("NICHOLAS@gmail.com", 'dener', 'leandro', "2005-11-11");
-    select * from tb_usuario;
     
-    insert into tb_login (	
+    insert into tb_login(	
     id_usuario ,
     ds_email ,
     ds_senha)
     value ('1', 'trindadesouzadenner@gmail.com' , "14233221" );
     
+    insert into tb_produto_avaliacao (
+    id_usuario,
+    id_produto)
+    value (1,1);
     
-    insert into tb_usuario_favorito (
+    insert into tb_produto (
+    id_departamento,
+    id_produto_categoria,
+    nm_produto ,
+    vl_preco_de ,
+    vl_preco_por 
+    )
+    value(1,2,'dark souls',144.50,70.99);
+    
+    insert into tb_departamento(
+    nm_departamento,
+	img_capa)
+    value('midway','cap midway');
+    
+    insert into tb_pedido_item( 
+    id_pedido,
+    id_produto,
+    vl_produto
+    )
+    value(1,1,70.99);
+    
+   insert into tb_pagamento(
+     id_pedido,
+    id_produto )
+    
+    value(1,12);
+    
+    insert into tb_pagamento_cartao (
+    ID_PAGAMENTO_CARTAO, 
+	ID_PEDIDO ,
+	NM_CARTAO,
+	NR_CARTAO,
+	DT_VENCIMENTO ,
+	COD_SEGURANCA, 
+	NR_PARCELAS,
+	DS_FORMA_PAGAMENTO)
+    
+    value(1,5,'nubank',14233221,2023-04-01,4123,10,'credito');
+    
+    insert into tb_admin(
+    ds_email,
+    ds_senha,
+    nm_admin,
+    dt_nascimento)
+    
+    value('gerakleandro@gmail.com',14233221,'srguts',2005-08-07);
+    
+     insert into tb_usuario_favorito (
     id_usuario , 
     id_produto)
     
