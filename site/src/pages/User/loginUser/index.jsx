@@ -2,6 +2,7 @@ import './index.scss'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
+
 export default function Index(){
   return(
        <main className='mae'>
@@ -32,8 +33,16 @@ export default function Index(){
 </section>
 
 <section className='sec3'>
-    {/* futura barra de pesquisa do email */} 
-    {/* futura barra de pesquisa da senha */} 
+
+<div>
+    <input placeholder='email'></input>
+</div>
+
+
+
+<input placeholder='senha'></input>
+
+    
     <Link className='texto2' to={'/esquecisenha'}>esqueci a minha senha?</Link>
     </section>
     
