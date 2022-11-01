@@ -1,71 +1,48 @@
-.maedetudo{ display:flex;
- align-items: center;
+.main{ 
+ display:flex;
+ flex-direction: row;
+ background-color: black;
+ justify-content:space-evenly ;
+ width: 50em;
+height: 2em;
+align-items: center;
+margin-left: 10em;
+margin-top: 2em;
+border-radius: 20px;
+}
+.sus{display:flex;
+    flex-direction: row;
+    margin-right: 15em;
+    
+}
 
- background-position: center;
- border-radius:9px;
- align-items: center;
-justify-content: center;
- width: 56em;
- height: 35px
+.p{ 
+    padding: 0em 2em;
+    color: white;
+    background-color: black;
+    
+}
+
+.inputs{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    height: 1em;
+   width: 20em;
+    margin: 20px;
+
+}
+
+.sas{display:flex;
+    flex-direction: row;
+    height: 1em;
+    margin-bottom: 12px;
+    margin-right: 2em;
+    }
+
+
+ 
+ 
  
 
-  ;
     
-    
-    
-    
-    .text1{ display: flex;
-        flex-direction: row;
-    
-        background-color: #282828;
-        font-size:20px;
-        font-style: italic;
-    
-        color: #fff;
-     
-    }
-    .lupinha{
-      width: 20px;
-      height:px;
-      background-color: #fff;
-      background-size: 10px 15px;
-    
-     
-    
-    }
-    .carrinho{background-color: #282828;
-     width: 50px;
-     height: 50px;
-     align-items: center;
-
-
-    }
-    .carregar{
-        align-items: center;
-        width:50px;
-        background-color: #282828; 
-    }
-    
-    input{ background-color: #fff;
-        border: none;
-        border-radius: 50px;
-
-        border: none;
-    
-    }
-    .inputtudo{ width: 35em;
-        background-color:white;
-        border-radius:20px;
-        width:25em;
-        height:22px;
-        justify-content: center;
-        align-items: center;
-        
-      
-
-
-    }
-    .text3{
-    color: rgb(197, 197, 197);
-    }
-}
