@@ -12,7 +12,8 @@ export default function Index() {
                  </section> 
             
               <button className='sas'>
-                <input className='inputs' type={Text}></input>
+                <input className='inputs' type={Text}/>
+                <img className='img' src='/assets/images/lupinha.png' alt='' />
                 
               </button>
             

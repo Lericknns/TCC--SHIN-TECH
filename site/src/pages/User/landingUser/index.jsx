@@ -9,17 +9,19 @@ export default function Index() {
        <main className='Home'>
             <Cabeçalho />
             <BarraPesquisa />
-            <div>    
+            <section>    
               
-                    <p> Destaques </p>
-                    <img/>
+                    <h1> Destaques </h1>
+                    <img className='img' src='/assets/images/spider man game.png' alt='' />
            
-                <div>
+                
                     <p> Á PARTIR DE 249,99</p>
                     <button>COMPRE AGORA</button>
-                </div> 
-            </div>
-            <div>
+                 
+            </section>
+
+
+            <section>
                 <p>Recomendados</p>
                 <div>
                     <div>
@@ -67,9 +69,9 @@ export default function Index() {
                     </div>
                 </div>
                 
-            </div>
+            </section>
 
-            <div>
+            <section>
                 <p>Mais populares</p>
                 <div>
                    <div>
@@ -108,7 +110,7 @@ export default function Index() {
                    <p></p>
                    </div>
                 </div>
-            </div>
+            </section>
 
        </main>
     )
