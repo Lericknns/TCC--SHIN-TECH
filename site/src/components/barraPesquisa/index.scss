@@ -6,7 +6,7 @@
  width: 50em;
 height: 2em;
 align-items: center;
-margin-left: 10em;
+margin-left: 70vh;
 margin-top: 2em;
 border-radius: 20px;
 }
@@ -23,7 +23,7 @@ border-radius: 20px;
     
 }
 
-.inputs{
+.ip{
     background-color: white;
     border: none;
     border-radius: 20px;
@@ -33,12 +33,17 @@ border-radius: 20px;
 
 }
 
+
+
 .sas{display:flex;
     flex-direction: row;
     height: 1em;
     margin-bottom: 12px;
-    margin-right: 2em;
+    margin-right: 1em;
+    background-image:'site/public/assets/images/lupada.png';
     }
+
+
 
 
  
