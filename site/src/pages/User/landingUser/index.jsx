@@ -8,7 +8,7 @@ export default function Index() {
     return(
        <main>
             <Cabeçalho />
-            <BarraPesquisa />
+           <div className='bar'> <BarraPesquisa /></div>
             
 
 
