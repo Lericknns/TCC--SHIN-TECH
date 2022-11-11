@@ -37,9 +37,15 @@ export default function Carrossel(){
              transitionDuration={500}
             >
 
-                <div> <img src='/assets/images/spider man game.png'/> </div>
-                <div><img src='/assets/images/spider man game.png'/> </div>
-                <div><img src='/assets/images/spider man game.png'/> </div>
+                <div> 
+                  <img src='/assets/images/spider man game.png'/>
+                   </div>
+                <div>
+                  <img src='/assets/images/spider man game.png'/>
+                 </div>
+                <div>
+                  <img src='/assets/images/spider man game.png'/>
+                 </div>
 
 
             </Carousel>
