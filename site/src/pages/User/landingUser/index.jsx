@@ -17,19 +17,29 @@ export default function Index() {
             <div className='daha'>
             
             <h1> destaques</h1>
-            
+             
+          
             </div>
+            <div> <Carrossel /></div>
             
-            <Carrossel />
             
+           
             </section>
             
             
             <section>
             
-            <h1>recomendados</h1>    
+            <div className='recomen'> 
                 
-            </section>   
+                
+                <h1>recomendados</h1>
+
+
+            </div>
+
+            </section>
+              
+                  
 
 
           
